@@ -1,0 +1,103 @@
+#weather-app {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f7fd;
+  border: 1px solid #a8a5b4;
+  border-radius: 10px;
+}
+
+#city-search {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  height: 50px;
+}
+
+#button-search {
+  background: #885df1;
+  border-radius: 6px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#city-name {
+  color: #212121;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 20px 0 10px;
+}
+
+ul strong {
+  color: #c06c84;
+}
+
+li {
+  color: #6c5b7c;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  position: relative;
+  right: 30px;
+  text-transform: capitalize;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.temperature {
+  color: #212121;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 20px 0 10px;
+  position: relative;
+  top: 30px;
+}
+
+#cel-unit {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.active {
+  color: #212121;
+  cursor: default;
+}
+
+.active:hover {
+  color: #212121;
+}
+
+#fah-unit {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#fah-unit:hover {
+  text-decoration: none;
+}
+
+#nowWeather {
+  margin-bottom: 15px;
+}
+
+.WeatherForecastPreview {
+  text-align: center;
+  color: #6c5b7c;
+}
+
+.forecast-temperature-max {
+  color: #c06c84;
+}
