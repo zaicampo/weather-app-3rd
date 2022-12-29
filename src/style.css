@@ -1,7 +1,7 @@
 #weather-app {
   max-width: 600px;
   margin: 50px auto;
-  padding: 20px;
+  padding: 40px;
   background-color: #f9f7fd;
   border: 1px solid #a8a5b4;
   border-radius: 10px;
@@ -94,8 +94,10 @@ img {
 }
 
 .WeatherForecastPreview {
+  display: block;
   text-align: center;
   color: #6c5b7c;
+  font-size: 18px;
 }
 
 .forecast-temperature-max {
